@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Plataforma Educativa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/createMatter.css">
+    </head>
+    <body>
+        <div class="cuadroBlanco">
+            <section class="buttonBack">
+                <a href="/homeAdmin.html">
+                    <button class="backMenu" type="button" onclick='createMatter()'>Back to Menu</button>    
+                </a>
+            </section>
+            <section class="buttonSend">
+                <button class="sendButton" type="button" onclick='createMatter()'>Add Matter</button>
+            </section>
+            <section class="formulario">
+                <form  class="formulario">
+                    <h4>Course</h4>
+                    <input   type="text" class="curso" placeholder="EJ: 6A" required>
+                    <h4>Matter</h4>
+                    <input   type="text" class="materia" placeholder="EJ: Fisica" required>
+                    <h4>Profesor</h4>
+                    <input   type="text" class="profesor" placeholder="EJ: Colameo Spinetti" required>
+                </form>
+      
+            </section>
+        </div>
+        <script src="js\index.js"></script>
+        <script src="js\ui.js"></script>
+    </body>
+</html>

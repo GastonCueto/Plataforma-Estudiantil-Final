@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/addNoteUser.css">
+    </head>
+    <body>
+        <div class="cuadroBlanco">
+            <section class="buttonBack">
+                <a href="/homeAdmin.html">
+                    <button class="backMenu" type="button" >Back to Menu</button>    
+                </a>
+            </section>
+            <section class="buttonSend">
+                <button  type="button" onclick='addNote()'>Add Note</button>
+            </section>
+            <form action="" class="formulario">
+                <h4>Name & Username</h4>
+                <input  type="text" class="nombre" placeholder="Mateo Gatica" required>
+                <h4>DNI</h4>
+                <input   type="text" class="dni" placeholder="45xxxxxx" required>
+                <h4>Course</h4>
+                <input   type="text" class="curso" placeholder="6A" required>
+                <h4>Matter</h4>
+                <input   type="text" class="materia" placeholder="Fisica" required>
+                <h4>Note</h4>
+                <input   type=number class="nota" placeholder="10" required>
+    
+            </form>
+            <div id='foo3'></div>
+        </div>
+        <script src="js\index.js"></script>
+    </body>
+    
+
+</html> 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Plataforma Educativa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/verusuario.css">
+    </head>
+    <body>
+        <div class="cuadroBlanco">
+            <section class="buttonBack">
+                <a href="/homeAdmin.html">
+                    <button class="backMenu" type="button">Back to Menu </button>    
+                </a>
+            </section>
+            <section class="buttonSend">
+                <button class="sendButton" type="button" onclick="mostrarAlumno()">View</button>
+            </section>
+
+            <div>
+            <table id="AlumnosTable">
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>dni</th>
+                        <th>curso</th>                        
+                        <th>telefono</th>
+                        <th>user</th>
+                        <th>pass</th>
+                        <th>select</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            </div>
+        </div>
+
+        <script src="js/index.js"></script>
+        <script src="js/ui.js"></script>
+ 
+    </body>
+</html>
