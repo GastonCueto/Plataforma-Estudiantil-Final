@@ -1,0 +1,78 @@
+body{
+    background: #510077 ;
+    color:black;
+    margin-bottom:50%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow:hidden;
+}
+
+.cuadroBlanco{
+
+    display:grid;
+    grid-template-columns: -0.5rem;
+    grid-template-rows: 4%;
+    border-radius: 50px;
+    background: #ffffff;
+    margin:1.5% 3% 3% 3%;
+    padding-top:0%;
+    padding-left:10%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    grid-row: 1;
+    grid-column:1;
+}
+h4{
+    margin-top:2%;
+    margin-bottom:1%;
+}
+.formulario{
+    grid-row: 1;
+    grid-column:2;
+    margin-top:3%;
+    margin-left: -13%;
+}
+
+.buttonBack{
+    grid-column:1;
+    grid-row: 2;
+    margin-left:-45%;
+    margin-top: 40%;
+}
+
+.buttonSend{
+    grid-column:1;
+    grid-row: 2;
+    margin-left: 110%;
+}
+
+.adminButton{
+    grid-column:1;
+    margin-top: -160px;
+    
+}
+
+
+.backMenu, .sendButton {
+    margin: 8% 0% 10% 20%;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(131, 0, 98);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+  
+  
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:-300px;
+    margin-left:70px;
+}

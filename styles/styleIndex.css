@@ -1,0 +1,157 @@
+body{
+    background: #510077 ;
+    color:black;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-rows: 610px;
+    grid-template-columns: 2fr 1fr ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+
+
+.slider img {
+    align-items: center;
+    width: 100%;
+    border-radius:10px;
+    
+}
+
+@keyframes changes {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -100%;
+    }
+    80%{
+        margin-left: -100%;
+    }
+    85%{
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+
+}
+
+.cuadroBlanco{
+
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    /* box-shadow:  35px 35px 70px #525252,
+                -35px -35px 70px #ffffff; */
+    margin:6%;
+    margin-top:4%;
+    margin-bottom:-4%;
+    padding-top:0%;
+    padding-left:10%;
+    padding-bottom:0%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    grid-row: 1;
+    grid-column:2;
+}
+.titulo{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+#icon{
+    width: 50%;
+    margin-top:16%;
+    margin-left:0%;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+#title1{
+    margin:55% 5% 5% 0%;
+    font-size:330%;
+    grid-column: 1;
+    grid-row: 1;
+}
+#title2{
+    margin:55% 5% 5% 0%;
+    font-size:330%;
+    grid-column: 1;
+    grid-row: 1;
+}
+#title3{
+    margin:55% 5% 5% 0%;
+    font-size:330%;
+    grid-column: 1;
+    grid-row: 1;
+}
+.User{
+    margin-top:-60%;
+    margin-left:8%;
+}
+.user{
+    font-size:130%;
+    border: none;
+    background:none;
+}
+.user:focus{
+    border: none;
+    outline: none;
+}
+
+.Pass{
+    margin-left:8%;
+}
+.pass{
+    font-size:130%;
+    border:none;
+    background:none;
+}
+.pass:focus{
+    border: none;
+    outline: none;
+}
+
+.button {
+    margin: 50% 0% 10% 20%;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: rgb(173, 13, 13);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  

@@ -1,0 +1,77 @@
+body{
+    background: #510077 ;
+    color:black;
+    margin-bottom:5%;
+    display:grid;
+    grid-template-rows: 20%;
+    grid-template-columns:100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow:hidden;
+
+}
+
+
+.cuadroBlanco{
+    border-radius: 50px;
+    border-radius: 50px;
+    background: #ffffff;
+    margin:1%;
+    margin-top:1%;
+    margin-bottom:-45%;
+    padding-top:0%;
+    padding-left:10%;
+    padding-bottom:0%;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    grid-row: 1;
+    grid-column:1;
+}
+.iconos {
+    margin-top: 10%;
+    margin-left: 5%;
+    display: grid;
+ 
+}
+.buttonSend{
+    grid-column:2.3;
+    grid-row: 2;
+    margin-left: 80%;
+    
+}
+ 
+.backMenu, .sendButton {
+   
+    padding: 1.3em 3em;
+    font-size: px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(131, 0, 98);
+    border: none;
+  
+   
+ 
+    cursor: pointer;
+    outline: none;
+}
+  
+  
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 3 / 2 / 4 / 2; }
+.div3 { grid-area: 3 / 2 / 4 / 3; }
+.div4 { grid-area: 3 / 3 / 4 / 4; }
+
+.conteiner{   
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.view{
+    margin-right: 250px;
+}
+
+.add{
+    margin-left: 50px;
+}
